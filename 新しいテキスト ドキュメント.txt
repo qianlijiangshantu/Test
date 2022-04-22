@@ -1,0 +1,166 @@
+名词解释
+Amazon EC2 全称是 Amazon Elastic Compute Cloud 在 Amazon Web Services (AWS) 云中提供可扩展的计算容量。使用 Amazon EC2 可避免前期的硬件投入，因此您能够快速开发和部署应用程序。通过使用 Amazon EC2，您可以根据自身需要启动任意数量的虚拟服务器、配置安全和网络以及管理存储。Amazon EC2 允许您根据需要进行缩放以应对需求变化或流行高峰，降低流量预测需求1。 相当一台Linux主机
+
+Amazon S3 全称是Amazon Simple Storage Service 是一项面向 Internet 的存储服务。您可以通过 Amazon S3 随时在 Web 上的任何位置存储和检索的任意大小的数据。您可以通过 AWS 管理控制台这一简单直观的 Web 界面来完成这些任务。本指南将向您介绍 Amazon S3 以及如何使用 AWS 管理控制台来完成下图中所示的任务2。 相当于硬盘存储数据
+
+Amazon DynamoDB 是一种完全托管的 NoSQL 数据库服务，提供快速且可预测的性能，同时还能够实现无缝扩展。使用 DynamoDB，您可以免除操作和扩展分布式数据库的管理工作负担，因而无需担心硬件预置、设置和配置、复制、软件修补或集群扩展等问题3。 类似于Mongodb数据库，只不过亚马逊结合自己云服务开发的DynamoDB
+
+AWS Lambda 是一项计算服务，可使您无需预配置或管理服务器即可运行代码。AWS Lambda 只在需要时执行您的代码并自动缩放，从每天几个请求到每秒数千个请求。您只需按消耗的计算时间付费 – 代码未运行时不产生费用。借助 AWS Lambda，您几乎可以为任何类型的应用程序或后端服务运行代码，并且不必进行任何管理4。相当流行的无服务的架构，就是所有的开发环境亚马逊帮你搭建好了，你只需要写代码运行就就可以了
+
+IAM 全称是Identity and Access Management， 用户的身份和访问权限管理
+https://pm-rasinban.com/ut-it-st
+
+
+serverless 无服务器服务
+RESTful风格 是什么东西？ https://baijiahao.baidu.com/s?id=1673508187946827839&wfr=spider&for=pc
+
+gitlab和gethub 联系了命令
+
+数组命令 https://www.w3school.com.cn/jsref/jsref_obj_array.asp
+
+window.onload是事件，能够文档加载完成后触发，并且能够为该事件注册事件处理函数，将要对对象或者模块进行操作的代码存放在处理函数中。
+
+js方法的高阶写法 https://www.javadrive.jp/javascript/function/index16.html
+
+<input type="submit" value="送信" onclick="str_check(this.form); return false;">
+上述代码中的return false的作用：阻止提交表单或者继续执行下面的代码，通俗的来说就是阻止执行默认的行为。
+
+return false的书写地方：
+在按钮标签中，比如<button class="btn-primary" οnclick="checkUkey();return false;">登录</button>
+或者在表单form中 加上 οnsubmit="return false;"
+https://blog.csdn.net/u014727260/article/details/53291983?locationNum=9&fps=1
+
+Linuxコマンド】シェルスクリプト(shファイル)の作成・実行
+https://algorithm.joho.info/unix/shell-script/
+
+String、StringBuffer和StringBuilder的区别
+https://blog.csdn.net/csxypr/article/details/92378336
+
+spring boot做成方法 https://medium-company.com/spring-boot-mybatis/#UserMapperxmlSQLXML
+模板创建地址 https://start.spring.io/
+
+gitlab 地址 https://gitlab.com/qq1342776390/myapp.git
+
+git使用教程 https://www.jianshu.com/p/e57a4a2cf077
+
+公私钥匙的使用与生成 https://backlog.com/ja/git-tutorial/reference/ssh/  软件Puttygen
+
+jUnit的使用说明 https://www.youtube.com/watch?v=Lmd2nzsEUng
+
+SQL存储过程
+https://www.w3cschool.cn/sql/sql-storage.html
+
+redmine
+https://goworkship.com/magazine/how-to-use-redmine/#Redmine
+工作票
+
+障害区分と障害原因 https://softwarenote.info/p668/
+
+SimpleDateFormatの厳密な・・・setLenient の使い方
+
+代码统计工具 BStepCnt
+
+vue
+
+计算属性：
+计算属性一般就是用来通过其他的数据算出一个新数据。
+而且它有一个好处就是，它把新的数据缓存下来了，当其他的入力依赖数据没有发生改变，它调用的是缓存的数据，这就极大的提高了我们程序的性能。
+而如果写在methods里，数据根本没有缓存的概念，所以每次都会重新计算。
+
+使用prevent修饰符可以阻止标签的默认行为
+https://blog.csdn.net/weixin_41201496/article/details/104658180
+
+アジャイル開発
+https://www.nec-solutioninnovators.co.jp/column/01_agile.html
+
+VUE面试题
+30 道 Vue 面试题，内含详细讲解（涵盖入门到精通，自测 Vue 掌握程度）
+https://juejin.cn/post/6844903918753808398
+
+https://chrome.google.com/webstore/search/vue?hl=ja
+拡張機能vue的扩张机能
+
+Vuetifyテーブル框架机能
+
+渡辺 様
+CC:ＸＸＸ様
+
+お疲れ様です。張です。
+
+本日の進捗状況を報告致します。
+
+・CSV読込処理の製造はスケジュール通り進んでおります。
+・昨日テスト仕様書とエビデンスのレビューをいただきました。指摘事項を対応中、明日完了予定です。
+・CSVフォーマットチェック処理が必要かどうかという質問事項は、お客様からの回答を待ち中です。回答が受領次第、対応致します。
+
+以上、よろしくお願い致します。
+
+
+ーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーー
+※タスクのステータス（状態）は大体次のように分類される。
+「着手」＝　Working
+「未着手」＝Waiting
+「完了」＝completed
+「中止」＝discontinued
+「保留」＝Pending　※例えば、ある課題があるので、当タスクを一旦保留。課題解決後、当タスクを再開する
+
+vue 路由 route
+
+vue视屏 https://vueschool.io/courses/vue-router-for-everyone?friend=vuerouter
+git的地址https://github.com/vueschool/vuejs-router.git
+
+firebase hosting https://qiita.com/rubytomato@github/items/b83caa01fc9c4993f526
+
+
+HashMapの使い方
+https://www.javadrive.jp/start/collection/index3.html#section1
+
+
+【Java】ListとSetの違いを理解する
+https://qiita.com/yachinco/items/01ee03cd1b85d41adff8
+
+
+https://bootstrap-vue.org/docs
+
+
+Vue.jsでPage間の値渡しを行う2つの方法
+https://strip.koatech.info/articles/vue-params-and-query/
+
+
+异步(非同期)课件video
+①回调函数 Callback Function
+https://www.youtube.com/watch?v=SqOX9kPQCR4&list=PL50akgsaBZlH1yCcOJVkahgXLZ3TaqAj2&index=13
+②JavaScript Promise 
+https://www.youtube.com/watch?v=CTChl_DYTz0&list=PL50akgsaBZlH1yCcOJVkahgXLZ3TaqAj2&index=14
+③JavaScript Async Await
+https://www.youtube.com/watch?v=zoZiQJ38bXk&list=PL50akgsaBZlH1yCcOJVkahgXLZ3TaqAj2&index=15
+
+axiosを使用
+1分でわかるJavaScriptライブラリaxiosの超簡単な使い方
+https://iwb.jp/javascript-library-axios-howto/
+
+
+
+DAOとDTOを学ぶために、下記の資料を参照して、プログラムの実装と実行をしてください。
+Java DAO（Data Access Object）と DTO（Data Transfer Object）
+https://ts0818.hatenablog.com/entry/2017/07/10/223553
+
+
+Q:「マスタ」と「テーブル」の違いとはなんでしょうか？
+A：
+マスタテーブルは、日常的に流動するとは限らないテーブル、
+トランザクションテーブルの対義語
+例えば、
+【マスタテーブル】：都道府県テーブル、郵便テーブル、顧客テーブル、商品テーブル
+【トランザクションテーブル】：売上テーブル、支払テーブル
+
+
+
+
+
+
+
+
+
+
+
