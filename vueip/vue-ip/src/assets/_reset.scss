@@ -1,0 +1,37 @@
+$myColor: red;
+
+h1 {
+  $myColor: green !global; // 全局作用域
+  color: $myColor;
+}
+
+p {
+  color: $myColor;
+}
+
+nav {
+  ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+  li {
+    display: inline-block;
+    font: {
+      family: Helvetica, sans-serif;
+      size: 18px;
+      weight: bold;
+    }
+
+    text: {
+      align: center;
+      transform: lowercase;
+      overflow: hidden;
+    }
+  }
+  a {
+    display: block;
+    padding: 6px 12px;
+    text-decoration: none;
+  }
+}
